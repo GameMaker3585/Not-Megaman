@@ -6,7 +6,7 @@
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
-  <maskName>spr_player</maskName>
+  <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
@@ -25,13 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>phy_fixed_rotation = true;
+            <string>///Initialize Variables
+grav = 0.2;
+hsp = 0;
+vsp = 0;
+jumpspeed = 8;
+movespeed = 4;
+sprintspeed = 8;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="39">
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -48,7 +54,47 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>phy_position_x += 1;
+            <string>///Input of Player
+key_right = keyboard_check(ord("D"));
+key_left = keyboard_check(ord("A"));
+key_jump = keyboard_check_pressed(vk_space);
+
+//React
+move = -key_left + key_right;
+hsp = move * movespeed;
+
+if (vsp &lt; 10) vsp += grav;
+
+if (place_meeting(x, y+1, obj_wall))
+{
+    vsp = key_jump * -jumpspeed;
+}
+
+//Horizontal Collisions
+
+if (place_meeting(x + hsp, y, obj_wall))
+{
+    while(!place_meeting(x+sign(hsp), y, obj_wall))
+    {
+        x += sign(hsp);
+    }
+    hsp = 0;
+}
+
+x += hsp;   
+   
+//Vertical Colisions
+
+if (place_meeting(x, y + vsp, obj_wall))
+{
+    while(!place_meeting(x, y+sign(vsp), obj_wall))
+    {
+        y += sign(vsp);
+    }
+    vsp = 0;
+}
+
+y += vsp;
 </string>
           </argument>
         </arguments>
