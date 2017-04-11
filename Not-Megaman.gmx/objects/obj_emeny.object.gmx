@@ -11,13 +11,13 @@
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
-        <id>120</id>
+        <id>121</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_linear_step</functionname>
+        <functionname>action_potential_step</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -37,7 +37,7 @@
           </argument>
           <argument>
             <kind>4</kind>
-            <string>0</string>
+            <string>1</string>
           </argument>
         </arguments>
       </action>
