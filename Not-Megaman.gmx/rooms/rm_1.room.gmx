@@ -8,7 +8,7 @@
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
-  <colour>12632256</colour>
+  <colour>16711680</colour>
   <showcolour>-1</showcolour>
   <code></code>
   <enableViews>0</enableViews>
@@ -69,9 +69,7 @@
     <instance objName="obj_wall" x="96" y="640" name="inst_8DA63114" locked="0" code="" scaleX="2.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="192" y="544" name="inst_E3A419F2" locked="0" code="" scaleX="2.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_sun" x="800" y="64" name="inst_89446F75" locked="0" code="" scaleX="1.60000002384186" scaleY="1.63999998569489" colour="4294967295" rotation="0"/>
-    <instance objName="background" x="256" y="-64" name="inst_73A2539D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="background" x="0" y="416" name="inst_6A3ACF5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="background" x="32" y="-128" name="inst_4CD9477B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_emeny" x="320" y="192" name="inst_200D70BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
