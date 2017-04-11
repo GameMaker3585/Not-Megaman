@@ -69,7 +69,9 @@
     <instance objName="obj_wall" x="96" y="640" name="inst_8DA63114" locked="0" code="" scaleX="2.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="192" y="544" name="inst_E3A419F2" locked="0" code="" scaleX="2.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_sun" x="800" y="64" name="inst_89446F75" locked="0" code="" scaleX="1.60000002384186" scaleY="1.63999998569489" colour="4294967295" rotation="0"/>
-    <instance objName="obj_emeny" x="320" y="192" name="inst_200D70BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_house" x="128" y="160" name="inst_A6AAA101" locked="0" code="" scaleX="1.34375" scaleY="-8.54838752746582" colour="4294967295" rotation="0"/>
+    <instance objName="obj_house" x="64" y="0" name="inst_27DBAC6A" locked="0" code="" scaleX="3.5" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_emeny" x="96" y="64" name="inst_F9F28B10" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

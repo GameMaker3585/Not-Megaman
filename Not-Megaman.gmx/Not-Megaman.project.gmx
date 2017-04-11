@@ -10,7 +10,7 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_sun</sprite>
     <sprite>sprites\spr_enemy</sprite>
-    <sprite>sprites\sprite4</sprite>
+    <sprite>sprites\spr_house</sprite>
     <sprite>sprites\spr_inv</sprite>
   </sprites>
   <backgrounds name="background"/>
@@ -21,6 +21,7 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_sun</object>
     <object>objects\background</object>
+    <object>objects\obj_house</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_1</room>
