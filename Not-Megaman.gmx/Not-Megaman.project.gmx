@@ -10,6 +10,8 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_sun</sprite>
     <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\sprite4</sprite>
+    <sprite>sprites\spr_inv</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -17,6 +19,7 @@
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_sun</object>
+    <object>objects\background</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_1</room>
